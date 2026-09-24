@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+
+# Temporary / partial files
+*.partial
+*.tmp
+
+# Local application settings
+nova_settings.json
+
+# Local backups
+app_backup_*.py
+app_END_PHASE_BACKUP.py
+app_PHASE4_FINAL.py
+app_PHASE4_STEP4_COMPLETE_BACKUP.py
+
+# Large test data
+test1GB.bin
+test1GB_random.bin
+cancel_random.bin
+cancel_test.bin
+
+# Generated test output
+SmokeOutput/
+SmokeRestore/
+ENDPHASE_SMOKE.txt
+restored_BALANCED.txt
+
+# Generated compressor artifacts
+*.zst
+*.zst.sha256
+# Local test folders
+DragDropExtract/
+ExtractedTest/
+TestFolder/
+QueueOutput/
+
+# Local backup artifacts
+*.backup
+
+# Local test source files
+profile_test.txt
+
+# PyInstaller build output
+build/
+dist/
